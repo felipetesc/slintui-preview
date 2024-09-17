@@ -1,0 +1,15 @@
+id = "slintui-preview"
+name = "SlintUI Preview"
+description = "Preview your Slint files from Zed Editor"
+version = "0.0.1"
+schema_version = 1
+authors = ["Felipe Torresini <felipetesc@gmail.com>"]
+repository = "https://gitlab.com/felipetesc/slintui-preview"
+
+[slintui_preview.preview_current]
+description = "preview current opened .slint file"
+requires_argument = false
+
+[slintui_preview.pick_one]
+description = "pick another .slint ui file for previewing it"
+requires_argument = true
